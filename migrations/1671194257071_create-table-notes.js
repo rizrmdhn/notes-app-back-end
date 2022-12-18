@@ -1,7 +1,3 @@
-/* eslint-disable camelcase */
-/* eslint-disable */
-
-
 exports.shorthands = undefined;
 
 exports.up = (pgm) => {

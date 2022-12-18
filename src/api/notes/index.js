@@ -1,4 +1,3 @@
-/* eslint-disable */
 const NotesHandler = require('./handler');
 const routes = require('./routes');
 

@@ -1,4 +1,3 @@
-/* eslint-disable */
 const Joi = require('joi');
 
 const UserPayloadSchema = Joi.object({

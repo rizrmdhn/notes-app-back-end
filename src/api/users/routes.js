@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 const routes = (handler) => [
     {
         method: 'POST',

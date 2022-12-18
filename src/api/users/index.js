@@ -1,4 +1,3 @@
-/* eslint-disable */
 const UsersHandler = require('./handler');
 const routes = require('./routes');
 
