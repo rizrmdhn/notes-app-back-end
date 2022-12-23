@@ -24,7 +24,7 @@ class UserService {
             text: 'INSERT INTO users VALUES($1, $2, $3, $4) RETURNING id',
             values: [id, username, hashedPassword, fullname],
         };
-
+        
         const result = await this._pool.query(query);
 
         if (!result.rows.length) {
